@@ -16,7 +16,7 @@ def prepare_csv_artists(filename):
     dates = []
 
     # Read in all the data
-    with open(filename, 'r') as _filehandler:
+    with open(filename, 'r', encoding="utf-8") as _filehandler:
         csv_file_reader = csv.DictReader(_filehandler)
         for row in csv_file_reader:
             # Read in the csv values for this row
@@ -69,7 +69,7 @@ def prepare_csv_albums(filename):
     dates = []
 
     # Read in all the data
-    with open(filename, 'r') as _filehandler:
+    with open(filename, 'r', encoding="utf-8") as _filehandler:
         csv_file_reader = csv.DictReader(_filehandler)
         for row in csv_file_reader:
             # Read in the csv values for this row
@@ -121,7 +121,7 @@ def prepare_csv_tracks(filename):
     dates = []
 
     # Read in all the data
-    with open(filename, 'r') as _filehandler:
+    with open(filename, 'r', encoding="utf-8") as _filehandler:
         csv_file_reader = csv.DictReader(_filehandler)
         for row in csv_file_reader:
             # Read in the csv values for this row
