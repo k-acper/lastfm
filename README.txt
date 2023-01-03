@@ -15,7 +15,7 @@ If the format is different change it using excel.
 6. Name your csv file “lastfm.csv”
 ---- RUNNING THE SCRIPT ----
 7. Run the lastfm.py script in terminal or cmd:
-[MacOs] (ex. If the files (lastfm.csv and lastfm.py) are on your desktop type in "cd desktop" and then "python3 lastfm.py")
+[MacOs] (e.g. If the files (lastfm.csv and lastfm.py) are on your desktop type in "cd desktop" and then "python3 lastfm.py")
 ---- VISUALISATION ----
 8. Enter this link and click "Duplicate and edit":
 https://public.flourish.studio/visualisation/5640566/
